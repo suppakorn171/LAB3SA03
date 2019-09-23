@@ -4,7 +4,7 @@ import './App.css';
 import _ from 'lodash';
 import pic from './aaa.jpg'
 
-let message = 'World'
+let message = 'JIGSAW'
 const prepareStateFromWord = (given_word) => {
   let word = given_word.toUpperCase()
   let chars = _.shuffle(Array.from(word))
